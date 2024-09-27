@@ -1,5 +1,10 @@
 import Roll from './Roll'
 
 export default function RollList() {
-  return <Roll></Roll>
+  return (
+    <>
+      <Roll win={false}></Roll>
+      <Roll win={true}></Roll>
+    </>
+  )
 }
